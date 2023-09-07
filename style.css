@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.screen-file-section{
+    background-image:url(./img/Booking.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:100%;
+    position: relative;
+}
+.screen-file-section .navbar-section{
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    margin: 0 auto;
+    padding-top: 26px;
+    align-items: center;
+}
+.screen-file-section .navbar-section .social-midea ul{
+    list-style: none;
+    display: flex;
+    gap:16px;
+
+}
+.screen-file-section .navbar-section .menu-section{
+display: flex;
+gap:19px;
+align-items: center;
+position: relative;
+}
+.screen-file-section .navbar-section .menu-section span{
+    color: #D8D8D8;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.screen-file-section .navbar-section .menu-section .phone-number{
+    display: flex;
+    align-items: center;
+    gap:5px
+}
+
+.screen-file-section .navbar-section .menu-section .lang-menu ul{
+    display: flex;
+    gap:15px;
+    list-style: none;
+    align-items: center;
+}
+
+.screen-file-section .navbar-section .menu-section .lang-menu ul li:nth-child(2){
+    width:2px;
+    background-color: #FFF;
+    height: 15px;
+}
+
+.screen-file-section .navbar-section .menu-section .lang-menu ul li a{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(177, 173, 173, 0.68);
+}
+.screen-file-section .navbar-section .menu-section .lang-menu .active a{
+    color: #FFF;
+}
+.screen-file-section .card-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    height: 507px;
+    padding: 50px;
+    flex-direction: column;
+    border-radius:  24px;
+    background: #FFF;
+    box-shadow: 14.17626px 10.1259px 16.20144px 0px rgba(24, 29, 31, 0.14);
+    position: absolute;
+    top:20%;
+    right: 10%;
+}
+.screen-file-section .card-screen img{
+    width: 199.123px;
+    height: 200px;
+    margin-top: 22px;
+}
+.screen-file-section .card-screen h3{
+color: #282828;
+text-align: center;
+font-family: Montserrat;
+font-size: 2rem;
+font-weight: 600;
+margin:32px 0;
+}
+.screen-file-section .card-screen p{
+    color:  #282828;
+text-align: center;
+font-family: Montserrat;
+font-size: 1rem;
+font-weight: 400;
+width: 75%;
+}
+.screen-file-section .card-screen p a{
+    color:  #004E6B;
+font-family: Montserrat;
+font-variant: small-caps;
+text-decoration-line: underline;
+}
+.screen-file-section .social-icon-boton{
+    display: none;
+}
+@media (max-width:600px) {
+    .screen-file-section .navbar-section{
+        display: none;
+    }
+    .screen-file-section{
+        background-image: url(./img/home.png);
+    }
+.screen-file-section .card-screen{
+    width: 90%;
+    height: auto;
+    background: none;
+    left: 50%;
+    transform: translateX(-50%);
+    top:10%
+}
+.screen-file-section .card-screen img{
+    padding: 15px;
+    background-color: #FFF;
+    border-radius: 16px;
+    width: 171.658px;
+    height: 172.414px;  
+}
+.screen-file-section .card-screen h3{
+    color:  #FFFDFD;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 600;
+    width:90%
+
+}
+.screen-file-section .card-screen p{
+    color:  #FFFDFD;
+text-align: center;
+font-family: Montserrat;
+font-size: 1rem;
+font-weight: 400;
+
+}
+.screen-file-section .card-screen p a{
+    color: #FFFDFD;
+font-family: Montserrat;
+font-weight: 600;
+font-variant: small-caps;
+text-decoration-line: underline;
+}
+.screen-file-section .social-icon-boton{
+    display: flex;
+    width:70%;
+    flex-direction: column;
+    gap:10px;
+    top:90%;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    align-items: center;
+}
+.screen-file-section .social-icon-boton .social-icon ul{
+    list-style: none;
+    display:flex;
+    gap:10px;
+}
+.screen-file-section .social-icon-boton h3{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-weight: 600;
+}
+}
+@media (max-width:992px){
+
+.screen-file-section .navbar-section{
+    width:90%;
+}
+
+}
